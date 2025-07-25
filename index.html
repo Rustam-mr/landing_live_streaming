@@ -20,10 +20,10 @@
 
                 <div class="nav__links">
                     <ul class="nav__links-list list" aria-label="header nav links">
-                        <li class="list__item" aria-label="first link">
+                        <li class="list__item">
                             <a class="list__item-link" href="#">about us</a>
                         </li>
-                        <li class="list__item" aria-label="second link">
+                        <li class="list__item">
                             <a class="list__item-link" href="#">contact</a>
                         </li>
                     </ul>
@@ -72,7 +72,7 @@
             </div>
         </section>
 
-        <section class="work-section">
+        <section class="work-section" aria-label="work section">
             <div class="container">
                 <div class="work">
                     <h2 class="work__title">How we work</h2>
@@ -81,61 +81,61 @@
                         <figure class="info-card card--analysis" aria-label="card analysis">
                             <svg class="info-card__icon icon--analysis" aria-label="analysis img">
                                 <use href="./assets/sprites.svg#analysis-icon"></use>
+                            </svg>
                                 <h3 class="info-card__title">Analysis</h3>
                                 <p class="info-card__desc">
                                     Gathering client's ideas we are happy to help with a technical vision.
                                 </p>
-                            </svg>
                         </figure>
 
                         <figure class="info-card card--design" aria-label="card design">
                             <svg class="info-card__icon icon--design" aria-label="design img">
                                 <use href="./assets/sprites.svg#design-icon"></use>
+                            </svg>
                                 <h3 class="info-card__title">Design</h3>
                                 <p class="info-card__desc">
                                     In-depth analysis makes our solutions flexible, scalable and robust.
                                 </p>
-                            </svg>
                         </figure>
 
                         <figure class="info-card card--development" aria-label="card development">
                             <svg class="info-card__icon icon--development" aria-label="development img">
                                 <use href="./assets/sprites.svg#development-icon"></use>
+                            </svg>
                                 <h3 class="info-card__title">Development</h3>
                                 <p class="info-card__desc">
                                     Using best practices to make reliable, well-documented and easy to maintain system.
                                 </p>
-                            </svg>
                         </figure>
 
                         <figure class="info-card card--maintenance" aria-label="card maintenance">
                             <svg class="info-card__icon icon--maintenance" aria-label="maintenance img">
                                 <use href="./assets/sprites.svg#maintenance-icon"></use>
+                            </svg>
                                 <h3 class="info-card__title">Maintenance</h3>
                                 <p class="info-card__desc">
                                     Gathering client's ideas we are happy to help with a technical vision.
                                 </p>
-                            </svg>
                         </figure>
 
                         <figure class="info-card card--testing" aria-label="card testing">
                             <svg class="info-card__icon icon--testing" aria-label="testing img">
                                 <use href="./assets/sprites.svg#testing-icon"></use>
+                            </svg>
                                 <h3 class="info-card__title">Testing</h3>
                                 <p class="info-card__desc">
                                     Providing best quality of things developed by us for customers
                                 </p>
-                            </svg>
                         </figure>
 
                         <figure class="info-card card--integration" aria-label="card integration">
                             <svg class="info-card__icon icon--integration" aria-label="integration img">
                                 <use href="./assets/sprites.svg#integration-icon"></use>
+                            </svg>
                                 <h3 class="info-card__title">Integration</h3>
                                 <p class="info-card__desc">
                                     Solutions that go with the times to improve businesses and give customers best experience
                                 </p>
-                            </svg>
                         </figure>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
 
         <hr class="diveder">
 
-        <section class="about-section">
+        <section class="about-section" aria-label="about section">
             <div class="container">
                 <div class="about">
                     <div class="about__quality">
@@ -177,7 +177,7 @@
                     <h2 class="experience__title">Our experience </h2>
 
                     <div class="experience__cards-wrapper">
-                        <figure class="img-card">
+                        <figure class="img-card" aria-label="img card">
                             <h3 class="img-card__title">Serverless Live Streaming</h3>
                             <img class="img-card__preview" src="./assets/img/card__shooting.webp" alt="card shooting img">
                             <button class="img-card__btn">
@@ -187,7 +187,7 @@
                             </button>
                         </figure>
 
-                        <figure class="img-card">
+                        <figure class="img-card" aria-label="img card">
                             <h3 class="img-card__title">
                                 <span>Learn about CloudFlex</span>
                                 <span>team cases</span></h3>
@@ -199,7 +199,7 @@
                             </button>
                         </figure>
 
-                        <figure class="img-card">
+                        <figure class="img-card" aria-label="img card">
                             <h3 class="img-card__title">Serverless Live Streaming</h3>
                             <img class="img-card__preview" src="./assets/img/card_streaming.webp" alt="card streaming img">
                             <button class="img-card__btn">
@@ -208,6 +208,47 @@
                                 </svg>
                             </button>
                         </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section" aria-label="testimonials section">
+            <div class="container">
+                <div class="testimonials">
+                    <h2 class="testimonials__title">Testimonials</h2>
+
+                    <div class="testimonials__slider slider">
+                        <figure class="wave-card" aria-label="wave card">
+                            <img class="wave-card__avatar" src="./assets/img/avatar_alpha.png" alt="">
+
+                            <blockquote class="wave-card__quote" cite="https://happyclient.com">
+                                <p>
+                                    Очень хороший отзыв, который оставил довольный клиент. А тут я ещё не придумал что написать, поэтому просто добавил это предложение.
+                                </p>
+                            </blockquote>
+                        </figure>
+
+                        <button class="slider__left-btn">
+                            <svg class="slider__left-btn-icon" aria-label="arrow icon">
+                                <use href="./assets/sprites.svg#arrow-icon"></use>
+                            </svg>
+                        </button>
+
+                        <button class="slider__right-btn">
+                            <svg class="slider__right-btn-icon" aria-label="arrow icon">
+                                <use href="./assets/sprites.svg#arrow-icon"></use>
+                            </svg>
+                        </button>
+
+                        <div class="slider__points">
+                            <div class="slider__points-item"></div>
+                            <div class="slider__points-item"></div>
+                            <div class="slider__points-item"></div>
+                            <div class="slider__points-item"></div>
+                            <div class="slider__points-item"></div>
+                            <div class="slider__points-item"></div>
+                        </div>
                     </div>
                 </div>
             </div>
