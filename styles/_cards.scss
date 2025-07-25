@@ -118,3 +118,41 @@
     width: 300px;
   }
 }
+
+.wave-card {
+  width: 500px;
+  height: 275px;
+  background: url('../assets/wave-card_png.svg')center center / contain no-repeat;
+  @include m.d-flex(start, start, nowrap, column, 0, 35px);
+
+  &__avatar {
+    margin: 20px 0 0 20px;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+  }
+
+  &__quote {
+    @include m.font(20px, 400, v.$color_white);
+
+    margin: 0 58px 0 40px;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  @media (max-width: v.$media_md) {
+    width: 330px;
+    row-gap: 15px;
+    background: url('../assets/wave-card_png.svg') 50% 0 / contain no-repeat;
+
+    // &__avatar {
+    //   width: 31px;
+    //   height: 31px;
+    // }
+
+    &__quote {
+      font-size: 13px;
+      margin: 0 29px 0 18px;
+    }
+  }
+}
