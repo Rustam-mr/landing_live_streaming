@@ -59,10 +59,15 @@
         <path d="M12.5488 6.91748C9.72214 6.91748 7.42188 9.08995 7.42188 11.7596C7.42188 14.4293 9.72214 16.6017 12.5488 16.6017C15.3755 16.6017 17.6758 14.4293 17.6758 11.7596C17.6758 9.08995 15.3755 6.91748 12.5488 6.91748Z"/>
     </symbol>
 
-    <symbol width="27" height="22" viewBox="0 0 27 22" id="burger-icon">
-        <rect width="27" height="2" fill="white"/>
-        <rect y="10" width="27" height="2" fill="white"/>
-        <rect y="20" width="27" height="2" fill="white"/>
+    <symbol viewBox="0 0 27 22" id="burger-icon">
+        <rect width="27" height="2"/>
+        <rect y="10" width="27" height="2"/>
+        <rect y="20" width="27" height="2"/>
+    </symbol>
+
+    <symbol viewBox="0 0 27 26" id="cross-icon">
+        <path d="M1 2L26 24" stroke-width="3"/>
+        <path d="M26 2L1 24" stroke-width="3"/>
     </symbol>
 </svg>
 
